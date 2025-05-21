@@ -1,0 +1,288 @@
+body {
+  background-color: #000; /* preto */
+  color: #F9F7F8; /* branco suave */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #fff; /* verde */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #87C25F;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  color: #FF914D; /* laranja */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Cabeçalho */
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+/* Seções gerais */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px;
+  margin-bottom: 55px;
+}
+
+/* Introdução */
+#introducao {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 55px;
+}
+
+#introducao h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.conteudo-intro {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.conteudo-intro span {
+  flex: 1;
+}
+
+.conteudo-intro p {
+  margin: 20px 0;
+  color: #fff;
+}
+
+.conteudo-intro img {
+  width: 220px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Habilidades */
+.habilidade {
+  width: 100%;
+  max-width: 600px;
+}
+
+.barra {
+  background-color: #ccc;
+  border-radius: 10px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.preenchimento {
+  height: 100%;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+  background-color: #87C25F;
+  border-radius: 10px;
+}
+
+.html { width: 90%; }
+.css { width: 80%; }
+.js { width: 85%; }
+.node { width: 75%; }
+.react { width: 70%; }
+.bd { width: 70%; }
+.py { width: 70%; }
+
+/* Projetos */
+.projeto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #111;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(135, 194, 95, 0.2);
+}
+
+.projeto img {
+  width: 100px;
+  height: 140px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.projeto h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #87C25F;
+}
+
+.projeto p {
+  margin: 30px 0;
+}
+
+/* Depoimentos */
+.depoimento {
+  background: white;
+  padding: 20px;
+  margin: 0 auto 50px auto;
+  border-left: 5px solid #87C25F;
+  color: black;
+  width: 60%;
+  max-width: 700px;
+  text-align: left;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.depoimento img {
+  width: 100px;
+  height: 140px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.depoimento h3,
+.depoimento p {
+  margin: 0;
+}
+
+.depoimento p {
+  margin-top: 6px;
+}
+
+/* Contato direto */
+.contato-direto {
+  text-align: center;
+}
+
+.contato-direto p {
+  color: #F9F7F8;
+  margin: 2px 0;
+}
+
+.contato-direto a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.contato-direto a:hover {
+  color: #87C25F;
+}
+
+.contato-direto img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Formulário */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(135, 194, 95, 0.2);
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #87C25F;
+  border-radius: 8px;
+  background-color: #000;
+  color: #F9F7F8;
+  font-size: 16px;
+  outline: none;
+}
+
+.formulario input::placeholder,
+.formulario textarea::placeholder {
+  color: #808080;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  border-color: #FF914D;
+  box-shadow: 0 0 5px #FF914D;
+}
+
+.formulario button {
+  background-color: #87C25F;
+  color: #000;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #FF914D;
+  color: #000;
+}
+
+/* Redes sociais */
+#redes ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+#redes li {
+  margin: 20px 0;
+}
+
+#redes a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+#redes a:hover {
+  color: #87C25F;
+}
